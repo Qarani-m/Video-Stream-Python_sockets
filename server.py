@@ -11,7 +11,6 @@ import pyautogui
 import sys
 import psutil
 
-
 video = sys.argv[1]
 q = queue.Queue(maxsize=10)
 BUFF_SIZE = 65536
