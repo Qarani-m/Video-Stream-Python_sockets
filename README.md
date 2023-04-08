@@ -15,7 +15,7 @@ The `client.py` script connects to the server and displays the video stream in a
 - Install the required libraries: OpenCV, pyaudio, and imutils
 
 ```bash
-pip install opencv-python pyaudio imutils
+pip install -r requirements.txt
 ```
 
 - Run the `server.py` script:
@@ -56,9 +56,7 @@ Both the server and client use threading to handle the video and audio streams c
 
 This project is inspired by and adapted from several existing projects, including:
 
-- OpenCV video streaming project by Adrian Rosebrock: https://www.pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/
 - Socket programming with Python by Tech with Tim: https://www.youtube.com/watch?v=3QiPPX-KeSc
-- Python Audio Streaming project by Sudhanshu Shekhar: https://github.com/sudhanshu456/Python-Audio-Streaming-using-Socket
 
 ## License
 
