@@ -5,7 +5,7 @@ import time, os
 import base64
 import threading, wave, pyaudio,pickle,struct
 BUFF_SIZE = 65536
-
+#123
 BREAK = False
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 client_socket.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
